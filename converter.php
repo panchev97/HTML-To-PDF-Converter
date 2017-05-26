@@ -27,7 +27,7 @@ if (isset($_POST['convert'])) {
                     <textarea name="htmlCode" class="form-control" rows="10" cols="40" placeholder="<body>Example..</body>">asd</textarea>
                 </label>
             </div>
-            <input class="btn btn-primary" type="submit" value="Convert To PDF" name="convert">
+            <button class="btn btn-primary" type="submit" name="convert" type="submit">Convert To PDF <span class="glyphicon glyphicon-download-alt"></span> </button>
         </form>
     </div>
 </body>
